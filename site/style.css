@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    text-rendering: optimizespeed;
+
+}
+
+.container {
+    width: 700px;
+    margin-top: 350px;
+    margin-left: 150px;
+}
+
+.preview {
+    font-family: sans-serif;
+    color: rgb(200, 170, 110);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    text-wrap: balance;
+    word-break: break-word;
+    font-family: "PT Serif", serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1;
+
+}
+
+.bio {
+    font-family: Spiegel, sans-serif;
+    font-weight: 500;
+    word-break: break-word;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.characters {
+    width: 500px;
+
+    display: block;
+
+}
+
+.firstf {
+    border: 1px solid rgb(200, 170, 110);
+    padding: 12px;
+    width: 130px;
+    height: auto;
+    display: inline-block;
+    
+}
+
+.first, .second {
+
+    position: relative;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 16px;
+    -webkit-box-flex: 1;
+    background-color: rgb(10, 20, 40);
+}
+
+.rolesup {
+    display: inline-block;
+    mask-image: url(rolesup.svg);
+    mask-repeat: no-repeat;
+    background-color: rgb(200, 170, 110);
+    mask-size: cover;
+    height: 32px;
+    width: 32px;
+}
+
+.rolemag {
+    display: inline-block;
+    mask-image: url(rolemage.svg);
+    mask-repeat: no-repeat;
+    background-color: rgb(200, 170, 110);
+    mask-size: cover;
+    height: 32px;
+    width: 32px;
+}
+.f {
+    color: white;
+    font-size: 11px;
+    
+}
+
+.d {
+    color: rgb(200, 170, 110);
+    font-size: 11px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.second .f {
+    margin-top: 4px;
+
+}
+.dif {
+    display: inline-block;
+    mask-image: url(diflow.svg);
+    mask-repeat: no-repeat;
+    background-color: rgb(200, 170, 110);
+    mask-size: cover;
+    height: 32px;
+    width: 48px;
+
+}
+
+.bottomtext {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid rgb(200, 170, 110);
+    gap: 12px;
+    padding: 8px 0px;
+    margin-top: 150px;
+    font-size: 11px;
+}
+
+.text {
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
